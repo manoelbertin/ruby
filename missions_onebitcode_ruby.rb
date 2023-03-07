@@ -3,36 +3,40 @@
 # Resolução das 3 Missões:
 
 # Missão 1
-array = []
+# array = []
 
-puts "Escolha 3 números para elevar à segunda potência:"
-print "Primeiro número => "
-array << first_number = gets.chomp.to_i
-print "Segundo número => "
-array << second_number = gets.chomp.to_i
-print "Terceiro número => "
-array << third_number = gets.chomp.to_i
+# puts "Escolha 3 números para elevar à segunda potência:"
+# print "Primeiro número => "
+# array << first_number = gets.chomp.to_i
+# print "Segundo número => "
+# array << second_number = gets.chomp.to_i
+# print "Terceiro número => "
+# array << third_number = gets.chomp.to_i
 
 
-new_array = array.map do |number|
-    square = number ** 2
-end
+# new_array = array.map do |number|
+#     square = number ** 2
+# end
 
-puts ("A segunda potência dos valores informados é: #{new_array}")
+# puts ("A segunda potência de cada valor informado é respectivamente: #{new_array}")
 
-# # #Missão 2
+# #Missão 2
 
-# hash = {}
-# 3.times do
-#     puts "Informe um estado: "
-#     city = gets.chomp
-#     puts "Informe uma capital: "
-#     hash["#{city}"] = gets.chomp
-# end 
+hash = {}
+3.times do
+    print "Informe um estado: "
+    # puts "Informe um estado: "
+    city = gets.chomp
+    print "Informe uma capital: "
+    #puts "Informe uma capital: "
+    hash["#{city}"] = gets.chomp
+end 
 
-# hash.each do |city, capital|
-#     puts "A capital do estado de #{city} é #{capital}"
-#   end
+puts "=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-="
+
+hash.each do |city, capital|
+    puts "A capital do estado de #{city} é #{capital}"
+  end
 
 # #Missao 3
 
