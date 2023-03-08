@@ -21,4 +21,7 @@ puts "só os estados =>> #{estados[0]}, #{estados[2..4]}, #{estados[-1]}"
 
 puts "A quantidade de estados no meu Array = #{estados.count}"
 puts "Está vazio? #{estados.empty?}"
+
+# abaixo o método de consulta
+puts "Estado de 'São Paulo' existe no array? #{estados.include?('São Paulo')}"
 puts "Fim do Programa"
