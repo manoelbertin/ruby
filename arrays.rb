@@ -27,4 +27,10 @@ puts "2- Estado de 'São Paulo' existe no array? #{estados.include?('São Paulo'
 puts "array = #{estados}"
 puts "3- Estado excluído do array = #{estados.delete_at(1)}"
 puts "array = #{estados}"
+# tira o último elemento
+puts "4- último elemento excluido = #{estados.pop}"
+puts "array = #{estados}"
+# tira o primeiro elemento
+puts "4- primeiro elemento excluido = #{estados.shift}"
+puts "array = #{estados}"
 puts "Fim do Programa"
