@@ -19,9 +19,12 @@ puts "estados = #{estados}"
 puts "só os estados =>> #{estados[0]}, #{estados[2..4]}, #{estados[-1]}"
 # esqueci como tirar o intervalo dos [] ??
 
-puts "A quantidade de estados no meu Array = #{estados.count}"
+puts "1 -A quantidade de estados no meu Array = #{estados.count}"
 puts "Está vazio? #{estados.empty?}"
 
 # abaixo o método de consulta
-puts "Estado de 'São Paulo' existe no array? #{estados.include?('São Paulo')}"
+puts "2- Estado de 'São Paulo' existe no array? #{estados.include?('São Paulo')}"
+puts "array = #{estados}"
+puts "3- Estado excluído do array = #{estados.delete_at(0)}"
+puts "array = #{estados}"
 puts "Fim do Programa"
