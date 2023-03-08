@@ -25,6 +25,6 @@ puts "Está vazio? #{estados.empty?}"
 # abaixo o método de consulta
 puts "2- Estado de 'São Paulo' existe no array? #{estados.include?('São Paulo')}"
 puts "array = #{estados}"
-puts "3- Estado excluído do array = #{estados.delete_at(0)}"
+puts "3- Estado excluído do array = #{estados.delete_at(1)}"
 puts "array = #{estados}"
 puts "Fim do Programa"
