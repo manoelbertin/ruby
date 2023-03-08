@@ -18,4 +18,7 @@ puts "estados = #{estados}"
 
 puts "só os estados =>> #{estados[0]}, #{estados[2..4]}, #{estados[-1]}"
 # esqueci como tirar o intervalo dos [] ??
+
+puts "A quantidade de estados no meu Array = #{estados.count}"
+puts "Está vazio? #{estados.empty?}"
 puts "Fim do Programa"
