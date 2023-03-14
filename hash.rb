@@ -8,3 +8,8 @@ puts capitaisAAA
 puts capitaisBBB
 puts capitais
 
+puts "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+
+capitais[:minas_gerais] = 'Belo Horizonte'
+puts capitais
+
