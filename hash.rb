@@ -13,3 +13,8 @@ puts "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
 capitais[:minas_gerais] = 'Belo Horizonte'
 puts "capitais = #{capitais}"
 
+puts "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+
+puts "capitais.keys = #{capitais.keys}"
+puts "capitais.values = #{capitais.values}"
+
