@@ -18,3 +18,12 @@ puts "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
 puts "capitais.keys = #{capitais.keys}"
 puts "capitais.values = #{capitais.values}"
 
+puts "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+
+#puts "capitais[:acre].delete = #{capitais[:acre].delete}"  ERROR seria .delete()
+puts "capitais = #{capitais}"
+
+puts "capitais.delete(:acre) = #{capitais.delete(:acre)}"
+
+puts "capitais = #{capitais}"
+
