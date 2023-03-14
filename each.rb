@@ -7,7 +7,7 @@ estados.push('Rio de Janeiro', 'Minas Gerais', 'São Paulo')
 puts "estados = #{estados}"
 puts 'estados.each do |estado|'
 estados.each do |estado|
-  puts estado
+  puts estado + 'é o meu estado preferido'
 end
 
 puts "estado iniciado lá em cima = #{estado}"
