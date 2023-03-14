@@ -27,3 +27,8 @@ puts "capitais.delete(:acre) = #{capitais.delete(:acre)}"
 
 puts "capitais = #{capitais}"
 
+puts "capitais.size = #{capitais.size} elementos no hash"
+
+puts "capitais.empty? = #{capitais.empty?}"
+
+
