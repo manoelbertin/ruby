@@ -32,7 +32,8 @@ loop do
             print "Deseja realizar outra operação? (s/n): "
             op = gets.chomp
             unless op == "s"
-                break
+              puts 'Fim do programa'  
+              break
             end
         when 2
             resultado = n1 - n2
@@ -41,6 +42,7 @@ loop do
             print "Deseja realizar outra operação? (s/n): "
             op = gets.chomp
             unless op == "s"
+              puts 'Fim do programa'  
                 break
             end
         when 3
@@ -50,6 +52,7 @@ loop do
             print "Deseja realizar outra operação? (s/n): "
             op = gets.chomp
             unless op == "s"
+              puts 'Fim do programa'  
                 break
             end
         when 4
@@ -60,6 +63,7 @@ loop do
                 print "Deseja realizar outra operação? (s/n): "
                 op = gets.chomp
                 unless op == "s"
+                  puts 'Fim do programa'  
                     break
                 end
             else
@@ -73,7 +77,8 @@ loop do
                 print "Deseja realizar outra operação? (s/n): "
                 op = gets.chomp
                 unless op == "s"
-                    break
+                  puts 'Fim do programa'  
+                  break
                 end
             end
         when 0
