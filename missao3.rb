@@ -14,4 +14,5 @@ numbers.select do |key, value|
     end
 end
 puts "a chave #{key_flag} e seu valor #{flag}"
+# puts numbers.values.max
 puts "FIM DO PROGRAMA"
