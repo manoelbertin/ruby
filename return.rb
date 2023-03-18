@@ -1,5 +1,8 @@
 def compare(a, b)
-  a > b 
+  
+  return a > b
+  
+  puts "HELLOOOOO" # not print this!
 end
 
 a = 1
