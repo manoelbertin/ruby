@@ -19,3 +19,13 @@ puts ''
 talk('Manoel', 'Carlo')
 talk()
 talk('Manoel')
+
+puts ""
+
+def signal(color = 'red')
+  puts "the signal is #{color}"
+end
+
+color = 'green'
+signal(color)
+signal
