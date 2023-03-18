@@ -1,15 +1,16 @@
-# Potential of the integer number
+# Potential of the numbers
 
-#system "clear"
+system "clear"
 
-def calc(n1, n2)
-  result = n1 ** n2
-  puts "the result this '#{n1}' raised to the exponent '#{n2}' is '#{result}'."
+def calc(base, exponent)
+  return base ** exponent
 end
 
-print "Enter first number: "
-n1 = gets.chomp.to_i
-print "Enter second number: "
-n2 = gets.chomp.to_i
+print "Enter base number: "
+base = gets.chomp.to_f
+print "Enter exponent number: "
+exponent = gets.chomp.to_f
 
-calc(n1, n2)
+calc(base, exponent)
+puts ""
+puts "the result of #{base}^#{exponent} is '#{calc(base, exponent)}'."
