@@ -5,3 +5,8 @@
 # Merge seria mesclar uma classe com a outra classe através de herança de classes (reaproveitamento)
 
 # Objeto tem atributos(informações) e métodos(comportamentos ou ação)-> attributes and methods.
+
+
+# A classe é só a PLANTA.
+
+# POR ISSO EU PRECISO criar um objeto. ex: computer = Computer.new
