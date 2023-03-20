@@ -5,6 +5,3 @@
 # Merge seria mesclar uma classe com a outra classe através de herança de classes (reaproveitamento)
 
 # Objeto tem atributos(informações) e métodos(comportamentos ou ação)-> attributes and methods.
-
-
-
