@@ -11,4 +11,5 @@ class Computer
 end
 
 computer = Computer.new
+puts computer
 puts computer.shutdown
