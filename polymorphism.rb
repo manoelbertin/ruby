@@ -27,5 +27,5 @@ puts "pencil:"
 pencil.write
 puts "pen:"
 pen.write
-puts "keyboard  overwrite below:"
+puts "keyboard  overridden with the parent class below:"
 keyboard.write
