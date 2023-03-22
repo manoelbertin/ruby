@@ -1,4 +1,4 @@
-# instance variable
+# instance variable  ### SÃO AS MAIS UTILIZADAS ###
 
 class User
   def add(name)
