@@ -8,10 +8,10 @@ class Person
   def check
     puts "Class Instance started with values:"
     puts "Name: #{@name}"
-    puts "Age: #{@age} years old"
+    puts "Age: #{@age} years old" # aqui passo as 2 variáveis de instância com o @
   end
 
 end
 
-  person2 = Person.new('Ary', 21)
+  person2 = Person.new('Ary', 21) # atenção aqui que passo parametros
   person2.check
