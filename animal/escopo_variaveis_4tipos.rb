@@ -14,4 +14,15 @@
 # Pode ser acessada em qualquer lugar do programa. Seu uso é FORTEMENTE DESENCORAJADO pois além 
 # de ser visível em qualquer lugar do código, também pode ser alterada em inúmeros locais
 # ocasionando dificuldades no rastreamento de bugs.
-
+#
+# 3- Variável de Classe =>>
+# Declarada com o prefixo @@
+#
+# Pode ser acessada em qualquer lugar da classe onde foi declarada e seu valor é compartilhado
+# entre todas as instâncias de sua classe.
+#
+# 4- Variável de Instância =>>
+# Seu nome começa com o símbolo @
+#
+# Semelhante a variável de classe, tendo como única diferença o valor que não é compartilhado 
+# entre todas as instâncias de sua classe.
