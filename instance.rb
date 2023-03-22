@@ -8,7 +8,7 @@ class User
 end
 
   def hello
-    puts "Welcome '#{name}'."
+    puts "Welcome '#{@name}'."
   end
 end
 
