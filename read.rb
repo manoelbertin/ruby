@@ -1,7 +1,7 @@
-puts '--Lista de Compras--'
+puts '--Shopping List--'
 
 File.open('shopping-list.txt').each do |line|
   puts line
 end
 
-puts '--fim do programa--'
+puts '--End of program--'
