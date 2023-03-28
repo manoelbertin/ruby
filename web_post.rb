@@ -1,11 +1,12 @@
 require 'net/http'
 
+# com essa classe post a gente instanciou o objeto e setou na variável req
 req = Net::HTTP::Post.new("/api/users")
 # para fazer chamadas https
 req.set_form_data({ name:'Mario', job: 'Encantador'})
-
-response = Net::HTTP.start('reqres.in', use_ssl: true) do |http|
-  http.request(req)
+#                   aqui ao invés de usar o GET estou usando o START
+response = Net::HTTP.start('reqres.in', use_ssl: true) do |https|
+  https.request(req)#                    aqui é pra ser https acima
 end
 
 puts response.code
